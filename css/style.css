@@ -1,0 +1,192 @@
+@import url(/css/reset.css);
+
+/* Helpers 
+==========*/
+
+.d-flex {
+  display: flex;
+}
+
+.container {
+  padding: 0 2.7rem;
+}
+
+.d-colomn {
+  flex-direction: column;
+}
+
+.jc-around {
+  justify-content: space-around;
+}
+
+.wrapper-py {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.py-article {
+  padding: 0.4rem 0;
+}
+
+.my-case {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.my-top {
+  margin-top: 2rem;
+}
+
+/* styles */
+
+.bg-prim {
+  background-color: #dae6f2;
+}
+
+.date {
+  color: #88969c;
+}
+
+.capital {
+  text-transform: capitalize;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.fweight-600 {
+  font-weight: 600;
+}
+
+sup {
+  font-size: 10px;
+}
+
+/* Main
+======= */
+
+.wrapper-main {
+  font-family: "Poppins", sans-serif;
+  width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Left
+======= */
+
+.wrapper-left {
+  width: 40%;
+}
+
+.pic {
+  margin-right: auto;
+  margin-left: auto;
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  border-radius: 500px;
+}
+
+.py-title_l {
+  padding-bottom: 0.7rem;
+}
+
+.fa-solid {
+  padding-right: 0.5rem;
+}
+
+/* XP bar */
+
+.bar {
+  border-radius: 5px;
+  height: 10px;
+}
+
+.xp-line {
+  align-items: center;
+}
+
+.lang {
+  width: 35%;
+}
+
+.progress {
+  width: 65%;
+}
+
+.fr {
+  width: 100%;
+}
+
+.en {
+  width: 75%;
+}
+
+.it {
+  width: 50%;
+}
+
+/* Hobbie */
+
+.ico-line {
+  justify-content: space-between;
+  margin-bottom: 1.3rem;
+}
+
+.ico-width {
+  width: 60px;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+/* Right
+======== */
+
+.wrapper-right {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  width: 60%;
+}
+
+.container_right {
+  padding-left: 1rem;
+}
+
+.wrapper-title {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: #373940;
+  background-color: #fff;
+}
+
+/* Title
+======== */
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+h3 {
+  font-size: 23px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 16px;
+}
+
+ul {
+  list-style: inside;
+}
